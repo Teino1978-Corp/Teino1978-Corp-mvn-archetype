@@ -1,0 +1,493 @@
+[INFO] Scanning for projects...
+[INFO] Searching repository for plugin with prefix: 'archetype'.
+[INFO] artifact org.apache.maven.plugins:maven-archetype-plugin: checking for updates from central
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/2.0/maven-archetype-plugin-2.0.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/archetype/maven-archetype/2.0/maven-archetype-2.0.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/2.0/maven-archetype-plugin-2.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Default Project
+[INFO]    task-segment: [archetype:generate] (aggregator-style)
+[INFO] ------------------------------------------------------------------------
+[INFO] Preparing archetype:generate
+[INFO] No goals needed for project - skipping
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.10/maven-invoker-2.0.10.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-7/plexus-container-default-1.0-alpha-7.pom
+Downloading: http://repo1.maven.org/maven2/plexus/plexus-containers/1.0.2/plexus-containers-1.0.2.pom
+Downloading: http://repo1.maven.org/maven2/plexus/plexus-root/1.0.3/plexus-root-1.0.3.pom
+Downloading: http://repo1.maven.org/maven2/plexus/plexus-utils/1.0.2/plexus-utils-1.0.2.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/2.0/archetype-common-2.0.pom
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.pom
+Downloading: http://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+Downloading: http://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.pom
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+Downloading: http://repo1.maven.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.pom
+Downloading: http://repo1.maven.org/maven2/org/apache/velocity/velocity/1.5/velocity-1.5.pom
+Downloading: http://repo1.maven.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.0.10/maven-invoker-2.0.10.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/2.0/archetype-common-2.0.jar
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.jar
+Downloading: http://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+Downloading: http://repo1.maven.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+[INFO] [archetype:generate]
+[INFO] Generating project in Interactive mode
+[INFO] No archetype defined. Using maven-archetype-quickstart (org.apache.maven.archetypes:maven-archetype-quickstart:1.0)
+Choose archetype:
+1: remote -> docbkx-quickstart-archetype (-)
+2: remote -> multi (-)
+3: remote -> simple (-)
+4: remote -> apparat-archetype-asm (-)
+5: remote -> apparat-archetype-tdsi (-)
+6: remote -> gquery-archetype (-)
+7: remote -> gquery-plugin-archetype (-)
+8: remote -> jdbc-proc-archetype (Creates simple project with jdbc-proc support)
+9: remote -> liferay-layouttpl-archetype (Provides an archetype to create Liferay layout templates.)
+10: remote -> liferay-portlet-archetype (Provides an archetype to create Liferay portlets.)
+11: remote -> liferay-theme-archetype (Provides an archetype to create Liferay themes.)
+12: remote -> rdfbean-tapestry-quickstart (Archetype for creating a basic RDFBean Tapestry 5 application.)
+13: remote -> j2me-simple (Maven 2 Archetype for midlet application using j2me-maven-plugin)
+14: remote -> vaadin-archetype-clean (This archetype generates a simple Vaadin application as a Maven project.
+      No custom widgetset is included.)
+15: remote -> vaadin-archetype-sample (This archetype generates a Vaadin application as a Maven project.
+      The application contains a custom GWT widgetset that is compiled
+      by the GWT compiler and integrated into the project as part of the
+      build process. The application is based on the Vaadin Color Picker
+      Demo application available at http://vaadin.com.)
+16: remote -> vaadin-archetype-widget (This archetype generates a Vaadin widget project for Vaadin 6.2+ and a test application.)
+17: remote -> android-quickstart (Creates a skeleton for an Android application)
+18: remote -> android-with-test (Creates a skeleton for an Android application and instrumentation tests)
+19: remote -> jbosscc-seam-archetype (Maven Archetype to generate a Seam Application)
+20: remote -> rails-maven-archetype (archetype to mavenize an existing rails 2.3.x or rails3 application)
+21: remote -> maven-archetype-flex (An archetype which contains a sample Maven Flex project using the israfil maven plugin)
+22: remote -> javate-zk-archetype (Archetype for a JavATE project that uses Hibernate and ZK.)
+23: remote -> web-quickstart (Context Web Application Framework - Quickstart)
+24: remote -> data-app (To make creating a new Databinder application easier, this archetype includes all required sources and resources.)
+25: remote -> data-app (To make creating a new Databinder application easier, this archetype includes all required sources and resources.)
+26: remote -> gae-archetype-gwt (Archetype for creating maven-gae projects that uses GWT for the view)
+27: remote -> gae-archetype-jsf (Archetype for creating maven-gae projects that works under Java Server Faces)
+28: remote -> gae-archetype-jsp (Archetype for creating maven-gae projects that uses jsp for the view)
+29: remote -> gae-archetype-objectify-jsp (Archetype for creating maven-gae projects that uses jsp for the view and Objectify for the ORM.)
+30: remote -> gae-archetype-wicket (Archetype for creating maven-gae projects based on apache wicket framework)
+31: remote -> lift-archetype-basic (Basic project archetype for Lift Web Framework (with database, logging, user management).)
+32: remote -> lift-archetype-basic_2.7.7 (Basic project archetype for Lift Web Framework (with database, logging, user management).)
+33: remote -> lift-archetype-basic_2.8.0 (Basic project archetype for Lift Web Framework (with database, logging, user management).)
+34: remote -> lift-archetype-basic_2.8.1 (Basic project archetype for Lift Web Framework (with database, logging, user management).)
+35: remote -> lift-archetype-blank (Blank project archetype for Lift Web Framework.)
+36: remote -> lift-archetype-blank_2.7.7 (Blank project archetype for Lift Web Framework.)
+37: remote -> lift-archetype-blank_2.8.0 (Blank project archetype for Lift Web Framework.)
+38: remote -> lift-archetype-blank_2.8.1 (Blank project archetype for Lift Web Framework.)
+39: remote -> lift-archetype-hellolift (Archetype - hellolift, a sample Lift application)
+40: remote -> lift-archetype-jpa-basic (Basic JPA archetype for Lift Web Framework.)
+41: remote -> lift-archetype-jpa-basic_2.7.7 (Basic JPA archetype for Lift Web Framework.)
+42: remote -> lift-archetype-jpa-basic_2.8.0 (Basic JPA archetype for Lift Web Framework.)
+43: remote -> lift-archetype-jpa-basic_2.8.1 (Basic JPA archetype for Lift Web Framework.)
+44: remote -> lift-archetype-jpa-blank (Blank JPA archetype for Lift Web Framework.)
+45: remote -> lift-archetype-jpa-blank-single (Blank JPA archetype for Lift Web Framework (single project).)
+46: remote -> lift-archetype-jpa-blank-single_2.7.7 (Blank JPA archetype for Lift Web Framework (single project).)
+47: remote -> lift-archetype-jpa-blank-single_2.8.0 (Blank JPA archetype for Lift Web Framework (single project).)
+48: remote -> lift-archetype-jpa-blank-single_2.8.1 (Blank JPA archetype for Lift Web Framework (single project).)
+49: remote -> lift-archetype-jpa-blank_2.7.7 (Blank JPA archetype for Lift Web Framework.)
+50: remote -> lift-archetype-jpa-blank_2.8.0 (Blank JPA archetype for Lift Web Framework.)
+51: remote -> lift-archetype-jpa-blank_2.8.1 (Blank JPA archetype for Lift Web Framework.)
+52: remote -> lift-archetype-sbt (Basic project archetype for Lift Web Framework (with database, logging, user management) using the sbt build system)
+53: remote -> lift-archetype-sbt_2.7.7 (Basic project archetype for Lift Web Framework (with database, logging, user management) using the sbt build system)
+54: remote -> lift-archetype-sbt_2.8.0 (Basic project archetype for Lift Web Framework (with database, logging, user management) using the sbt build system)
+55: remote -> lift-archetype-sbt_2.8.1 (Basic project archetype for Lift Web Framework (with database, logging, user management) using the sbt build system)
+56: remote -> jlue-archetype-basic (Archetype - basic project for Jlue)
+57: remote -> jlue-archetype-blank (Archetype - blank project for Jlue)
+58: remote -> maven-archetype-har (-)
+59: remote -> maven-archetype-sar (-)
+60: remote -> maven-archetype-gwt (An archetype which contains a sample Maven GWT project.)
+61: remote -> portletunit-portlet-archetype (An archetype that creates a simple porltet with unit tests.)
+62: remote -> ota-tools-schema-archetype (-)
+63: remote -> antlr3-maven-archetype (-)
+64: remote -> camel-component (-)
+65: remote -> camel-router (-)
+66: remote -> camel-archetype-activemq (Creates a new Camel project that configures and interacts with ActiveMQ.)
+67: remote -> camel-archetype-component (Creates a new Camel component.)
+68: remote -> camel-archetype-java (Creates a new Camel project using Java DSL.)
+69: remote -> camel-archetype-scala (Creates a new Camel project using Scala DSL.)
+70: remote -> camel-archetype-spring (Creates a new Camel project with added Spring DSL support.)
+71: remote -> camel-archetype-war (Creates a new Camel project that deploys the Camel Web Console, REST API, and your routes as a WAR)
+72: remote -> cocoon-22-archetype-block (-)
+73: remote -> cocoon-22-archetype-block-plain (-)
+74: remote -> cocoon-22-archetype-webapp (-)
+75: remote -> cocoon-archetype-block (-)
+76: remote -> cocoon-archetype-parent (-)
+77: remote -> cocoon-archetype-sample (-)
+78: remote -> cocoon-archetype-webapp (-)
+79: remote -> cxf-http-basic (-)
+80: remote -> cxf-jaxws-javafirst (-)
+81: remote -> apacheds-schema-archetype (-)
+82: remote -> apacheds-testcase-archetype (-)
+83: remote -> maven-ipojo-plugin (Maven Plugin to package iPOJO-powered bundles.)
+84: remote -> geronimo-archetype-testsuite (Plugin to help create a testsuite)
+85: remote -> geronimo-assembly-archetype (-)
+86: remote -> geronimo-plugin-archetype (-)
+87: remote -> geronimo-archetype-testsuite (Plugin to help create a testsuite)
+88: remote -> geronimo-samples-archetype (Plugin to help create a samples project)
+89: remote -> archetypes-command (-)
+90: remote -> maven-archetype-archetype (An archetype which contains a sample archetype.)
+91: remote -> maven-archetype-j2ee-simple (An archetype which contains a simplifed sample J2EE application.)
+92: remote -> maven-archetype-marmalade-mojo (-)
+93: remote -> maven-archetype-mojo (An archetype which contains a sample a sample Maven plugin.)
+94: remote -> maven-archetype-plugin (An archetype which contains a sample Maven plugin.)
+95: remote -> maven-archetype-plugin-site (An archetype which contains a sample Maven plugin site. This archetype can be layered upon an
+    existing Maven plugin project.)
+96: remote -> maven-archetype-portlet (An archetype which contains a sample JSR-268 Portlet.)
+97: remote -> maven-archetype-profiles (-)
+98: remote -> maven-archetype-quickstart (An archetype which contains a sample Maven project.)
+99: remote -> maven-archetype-site (An archetype which contains a sample Maven site which demonstrates some of the supported document types like
+    APT, XDoc, and FML and demonstrates how to i18n your site. This archetype can be layered
+    upon an existing Maven project.)
+100: remote -> maven-archetype-site-simple (An archetype which contains a sample Maven site.)
+101: remote -> maven-archetype-webapp (An archetype which contains a sample Maven Webapp project.)
+102: remote -> myfaces-archetype-helloworld (Archetype to create a new webapp based on myfaces)
+103: remote -> myfaces-archetype-helloworld-facelets (Archetype to create a new webapp based on MyFaces and Facelets)
+104: remote -> myfaces-archetype-helloworld-portlets (Archetype to create a new portlet webapp based on myfaces)
+105: remote -> myfaces-archetype-helloworld20 (Archetype to create a new webapp based on MyFaces 2.0)
+106: remote -> myfaces-archetype-helloworld20-owb (Archetype to create a new webapp based on MyFaces 2.0 with OpenWebBeans)
+107: remote -> myfaces-archetype-jsfcomponents (Archetype to create a libary project of JSF components)
+108: remote -> myfaces-archetype-trinidad (Archetype to create a new webapp based on Trinidad)
+109: remote -> myfaces-archetype-trinidad20 (Archetype to create a new webapp based on Trinidad and JSF 2.0)
+110: remote -> myfaces-archetype-trinidad (Archetype to ease the burden of creating a new application based with Trinidad)
+111: remote -> application-archetype (Jetspeed-2 Maven2 Archetype used to generate portal application templates.)
+112: remote -> component-archetype (Jetspeed-2 Maven2 Archetype used to generate component templates to
+        be used by other components and applications.)
+113: remote -> jetspeed-archetype (Jetspeed 2 Maven Archetype)
+114: remote -> portal-archetype (Jetspeed-2 Maven2 Archetype used to generate portal instances.)
+115: remote -> portal-component-archetype (Jetspeed-2 Maven2 Archetype used to generate component templates to
+        be injected/installed as a library in the portal application itself.)
+116: remote -> shared-component-archetype (Jetspeed-2 Maven2 Archetype used to generate component templates to
+        be installed as a shared library for all portlet/web applications.)
+117: remote -> servicemix-bean-service-unit (-)
+118: remote -> servicemix-binding-component (-)
+119: remote -> servicemix-camel-osgi-bundle (-)
+120: remote -> servicemix-camel-service-unit (-)
+121: remote -> servicemix-cxf-bc-service-unit (-)
+122: remote -> servicemix-cxf-code-first-osgi-bundle (-)
+123: remote -> servicemix-cxf-se-service-unit (-)
+124: remote -> servicemix-cxf-se-wsdl-first-service-unit (-)
+125: remote -> servicemix-cxf-wsdl-first-osgi-bundle (-)
+126: remote -> servicemix-drools-service-unit (-)
+127: remote -> servicemix-eip-service-unit (-)
+128: remote -> servicemix-embedded-simple (-)
+129: remote -> servicemix-exec-service-unit (-)
+130: remote -> servicemix-file-poller-service-unit (-)
+131: remote -> servicemix-file-sender-service-unit (-)
+132: remote -> servicemix-file-service-unit (-)
+133: remote -> servicemix-ftp-poller-service-unit (-)
+134: remote -> servicemix-ftp-sender-service-unit (-)
+135: remote -> servicemix-ftp-service-unit (-)
+136: remote -> servicemix-http-consumer-service-unit (-)
+137: remote -> servicemix-http-provider-service-unit (-)
+138: remote -> servicemix-http-service-unit (-)
+139: remote -> servicemix-jms-consumer-service-unit (-)
+140: remote -> servicemix-jms-provider-service-unit (-)
+141: remote -> servicemix-jms-service-unit (-)
+142: remote -> servicemix-jsr181-annotated-service-unit (-)
+143: remote -> servicemix-jsr181-service-unit (-)
+144: remote -> servicemix-jsr181-wsdl-first-service-unit (-)
+145: remote -> servicemix-lwcontainer-service-unit (-)
+146: remote -> servicemix-mail-service-unit (-)
+147: remote -> servicemix-ode-service-unit (-)
+148: remote -> servicemix-osgi-bundle (-)
+149: remote -> servicemix-osworkflow-service-unit (-)
+150: remote -> servicemix-project-root (-)
+151: remote -> servicemix-quartz-service-unit (-)
+152: remote -> servicemix-saxon-service-unit (-)
+153: remote -> servicemix-saxon-xquery-service-unit (-)
+154: remote -> servicemix-saxon-xslt-service-unit (-)
+155: remote -> servicemix-script-service-unit (-)
+156: remote -> servicemix-scripting-service-unit (-)
+157: remote -> servicemix-service-assembly (-)
+158: remote -> servicemix-service-engine (-)
+159: remote -> servicemix-service-unit (-)
+160: remote -> servicemix-shared-library (-)
+161: remote -> servicemix-smpp-service-unit (-)
+162: remote -> servicemix-snmp-service-unit (-)
+163: remote -> servicemix-validation-service-unit (-)
+164: remote -> servicemix-vfs-service-unit (-)
+165: remote -> servicemix-xmpp-service-unit (-)
+166: remote -> sling-initial-content-archetype (Maven archetype for initial content)
+167: remote -> sling-servlet-archetype (Maven archetype for Sling Servlets)
+168: remote -> struts2-archetype-blank (-)
+169: remote -> struts2-archetype-convention (-)
+170: remote -> struts2-archetype-dbportlet (-)
+171: remote -> struts2-archetype-plugin (-)
+172: remote -> struts2-archetype-portlet (-)
+173: remote -> struts2-archetype-starter (-)
+174: remote -> quickstart (Archetype for creating a basic Tapestry 5 application.)
+175: remote -> tapestry-archetype (-)
+176: remote -> tapestry-simple (Archetype for creating a basic Tapestry 5 application, including Eclipse control files.)
+177: remote -> tuscany-binding-archetype (Create a Tuscany binding extension project)
+178: remote -> tuscany-contribution-jar (-)
+179: remote -> tuscany-contribution-zip (-)
+180: remote -> tuscany-quickstart (-)
+181: remote -> tuscany-quickstart-bpel (-)
+182: remote -> tuscany-quickstart-jsf (-)
+183: remote -> tuscany-quickstart-jsonp (-)
+184: remote -> tuscany-quickstart-stripes (-)
+185: remote -> wicket-archetype-quickstart (-)
+186: remote -> appfuse-basic-jsf (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+187: remote -> appfuse-basic-spring (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+188: remote -> appfuse-basic-struts (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+189: remote -> appfuse-basic-tapestry (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+190: remote -> appfuse-core (Maven 2 archetype that creates a backend (Managers, DAOs and Web Services)
+        application with AppFuse embedded in it.)
+191: remote -> appfuse-modular-jsf (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's JSF implementation.)
+192: remote -> appfuse-modular-spring (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's Spring MVC implementation.)
+193: remote -> appfuse-modular-struts (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's Struts implementation.)
+194: remote -> appfuse-modular-tapestry (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's Tapestry implementation.)
+195: remote -> appfuse-basic-jsf (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+196: remote -> appfuse-basic-jsf-archetype (AppFuse Archetype)
+197: remote -> appfuse-basic-spring (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+198: remote -> appfuse-basic-spring-archetype (AppFuse Archetype)
+199: remote -> appfuse-basic-struts (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+200: remote -> appfuse-basic-struts-archetype (AppFuse Archetype)
+201: remote -> appfuse-basic-tapestry (Maven 2 archetype that creates a web application with AppFuse embedded in it.)
+202: remote -> appfuse-basic-tapestry-archetype (AppFuse Archetype)
+203: remote -> appfuse-core (Maven 2 archetype that creates a backend (Managers, DAOs and Web Services)
+        application with AppFuse embedded in it.)
+204: remote -> appfuse-core-archetype (-)
+205: remote -> appfuse-light-jsf-archetype (AppFuse Archetype)
+206: remote -> appfuse-light-spring-archetype (AppFuse Archetype)
+207: remote -> appfuse-light-spring-freemarker-archetype (AppFuse Archetype)
+208: remote -> appfuse-light-spring-security-archetype (AppFuse Archetype)
+209: remote -> appfuse-light-stripes-archetype (AppFuse Archetype)
+210: remote -> appfuse-light-struts-archetype (AppFuse Archetype)
+211: remote -> appfuse-light-tapestry-archetype (AppFuse Archetype)
+212: remote -> appfuse-light-wicket-archetype (AppFuse Archetype)
+213: remote -> appfuse-modular-jsf (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's JSF implementation.)
+214: remote -> appfuse-modular-jsf-archetype (AppFuse Archetype)
+215: remote -> appfuse-modular-spring (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's Spring MVC implementation.)
+216: remote -> appfuse-modular-spring-archetype (AppFuse Archetype)
+217: remote -> appfuse-modular-struts (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's Struts implementation.)
+218: remote -> appfuse-modular-struts-archetype (AppFuse Archetype)
+219: remote -> appfuse-modular-tapestry (Maven 2 archetype that creates a modular web application with AppFuse. This archetype creates two modules:
+        "core" and "web". The core module depends on appfuse-service, while the web module depends on core as well
+        as AppFuse's Tapestry implementation.)
+220: remote -> appfuse-modular-tapestry-archetype (AppFuse Archetype)
+221: remote -> drools4-integration-helper-archetype (Support of the archetype for the Maven plugin)
+222: remote -> drools5-integration-helper-archetype (This is an Maven 2 Archetype to support creation of a ready to
+		use Maven 2 project with Drools support. This archetype contains
+		examples of code based on interface, classes and pre/post
+		condition. JUnit 4 examples are also included.)
+223: remote -> cargo-archetype-webapp-functional-tests-module (Sample Maven 2 Archetypes showing how to configure Cargo and Maven to run functional tests
+    for a webapp by creating a functional-tests module.)
+224: remote -> cargo-archetype-webapp-single-module (Sample Maven 2 Archetypes showing how to configure Cargo and Maven to run functional tests
+    directly from a single webapp module.)
+225: remote -> codegen-testcase (-)
+226: remote -> cpa-testcase (-)
+227: remote -> enunciate-simple-archetype (-)
+228: remote -> gmaven-archetype-basic (-)
+229: remote -> gmaven-archetype-mojo (-)
+230: remote -> gmaven-archetype-basic (-)
+231: remote -> gmaven-archetype-mojo (-)
+232: remote -> maven-archetype-nbm (Archetype for Netbeans Modules Maven setup)
+233: remote -> gwt-maven-plugin (Maven plugin for the Google Web Toolkit.)
+234: remote -> latex-maven-archetype (The LaTeX Maven Archetype is kickstarts your LaTeX / Maven projects.)
+235: remote -> xmlbeans-maven-plugin (Runs the xmlbeans parser/code generator against schemas in files and dependent jars.)
+236: remote -> appframework (Archetype for creating application based on JSR 296)
+237: remote -> ear-j2ee14 (Archetype for creating J2EE 1.4 EAR)
+238: remote -> ear-javaee6 (Archetype for EAR package using Java EE 6)
+239: remote -> ear-jee5 (Archetype for creating JEE 5 EAR)
+240: remote -> ejb-j2ee13 (An archetype which contains a sample J2EE 1.3 EJB Maven project.)
+241: remote -> ejb-j2ee14 (An archetype which contains a sample J2EE 1.4 EJB Maven project.)
+242: remote -> ejb-javaee6 (Archetype for an EJB package using Java EE 6.)
+243: remote -> ejb-jee5 (JEE 5 ejb jar archetype)
+244: remote -> nbm-archetype (Archetype for development of NetBeans modules in Maven.)
+245: remote -> nbm-osgi-archetype (Archetype for development of NetBeans modules that can depend on OSGi bundles.)
+246: remote -> nbm-suite-root (Root project archetype for creating multi module projects developing NetBeans IDE modules. Approximately similar in functionality to module suites in NetBeans Ant projects.)
+247: remote -> netbeans-platform-app-archetype (Archetype for sample application based on NetBeans Platform. Creates parent POM with branding and empty NBM project.)
+248: remote -> osgi-archetype (Archetype for development of OSGi bundles using Apache Felix Maven plugin)
+249: remote -> pom-root (Root project archetype for creating multi module projects)
+250: remote -> webapp-j2ee13 (J2EE 1.3 web application archetype)
+251: remote -> webapp-j2ee14 (J2EE 1.4 web application archetype)
+252: remote -> webapp-javaee6 (Archetype for a web application using Java EE 6.)
+253: remote -> webapp-jee5 (JEE 5 web application archetype)
+254: remote -> groovy-maven-archetype (An archetype for creating Maven modules/projects using the Groovy language.)
+255: remote -> groovy-mojo-archetype (An archetype for writing Maven 2 plugins in the Groovy language.)
+256: remote -> org.openxma.dsl.sample-archetype (-)
+257: remote -> sonar-basic-plugin-archetype (Maven archetype to create a basic Sonar plugin)
+258: remote -> sonar-gwt-plugin-archetype (Maven archetype to create a Sonar plugin including GWT pages)
+259: remote -> cometd-archetype-dojo-jetty6 (-)
+260: remote -> cometd-archetype-dojo-jetty7 (-)
+261: remote -> cometd-archetype-jquery-jetty6 (-)
+262: remote -> cometd-archetype-jquery-jetty7 (-)
+263: remote -> coos-plugin-actor (-)
+264: remote -> coos-plugin-api (-)
+265: remote -> coos-plugin-noapi (-)
+266: remote -> jee6-basic-archetype (Basic Java EE application with just configuration for CDI, JSF, JPA and a sample empty page.)
+267: remote -> jee6-minimal-archetype (Minimal Java EE application with a single page demo of CDI, JSF, JPA and Validation to verify everything works.)
+268: remote -> jee6-sandbox-archetype (Sandbox project for Java EE 6 with CDI, JSF, JPA and a sample model and test data to play around with, try new things, and use as a foundation for tutorials)
+269: remote -> jee6-sandbox-demo-archetype (Complete demo example using CDI, JSF, JPA and validation showcasing a number of features available in Java EE 6 as well as demonstrating how to make them all work together)
+270: remote -> jee6-servlet-basic-archetype (Java EE application for servlet containers (Jetty,Tomcat) with just a single page and a persistence provider .)
+271: remote -> jee6-servlet-demo-archetype (Bookmarking application demonstrating JSF, CDI, JPA and Bean Validation on Tomcat/Jetty servlet containers)
+272: remote -> jee6-servlet-minimal-archetype (Minimal Java EE application for servlet containers (Jetty,Tomcat) with a single page demo of CDI, JSF, JPA and Validation to verify everything works.)
+273: remote -> jee6-servlet-sandbox-archetype (Java EE 6 archetype for servlet containers (Jetty,Tomcat) with sandbox data built in.)
+274: remote -> scalate-archetype-empty (An archetype which creates an empty Scalate web application)
+275: remote -> scalate-archetype-guice (An archetype which creates an empty Scalate Guice web application)
+276: remote -> scalate-archetype-jersey (An archetype which creates an empty Scalate web application)
+277: remote -> geomajas-gwt-archetype (Geomajas GWT application archetype)
+278: remote -> geoserver-archetype-wfsoutputformat (-)
+279: remote -> grails-maven-archetype (Maven archetype for Grails projects.)
+280: remote -> graniteds-spring-jpa-hibernate (Granite Data Services (GraniteDS or GDS) is a free, open source, (LGPL'd) alternative to Adobe? LiveCycle?
+    (Flex? 2+) Data Services for Java EE application servers. The primary goal of this project is to provide a
+    framework for Flex 2+/EJB 3/Seam/Spring/Guice/POJO application development with full AMF3/RemoteObject benefits.)
+281: remote -> graniteds-tide-cdi-jpa (Granite Data Services (GraniteDS or GDS) is a free, open source, (LGPL'd) alternative to Adobe? LiveCycle?
+    (Flex? 2+) Data Services for Java EE application servers. The primary goal of this project is to provide a
+    framework for Flex 2+/EJB 3/Seam/Spring/Guice/POJO application development with full AMF3/RemoteObject benefits.)
+282: remote -> graniteds-tide-seam-jpa-hibernate (Granite Data Services (GraniteDS or GDS) is a free, open source, (LGPL'd) alternative to Adobe? LiveCycle?
+    (Flex? 2+) Data Services for Java EE application servers. The primary goal of this project is to provide a
+    framework for Flex 2+/EJB 3/Seam/Spring/Guice/POJO application development with full AMF3/RemoteObject benefits.)
+283: remote -> graniteds-tide-spring-jpa-hibernate (Granite Data Services (GraniteDS or GDS) is a free, open source, (LGPL'd) alternative to Adobe? LiveCycle?
+    (Flex? 2+) Data Services for Java EE application servers. The primary goal of this project is to provide a
+    framework for Flex 2+/EJB 3/Seam/Spring/Guice/POJO application development with full AMF3/RemoteObject benefits.)
+284: remote -> imixs-workflow-jee-archetype (Imixs Workflow JEE Archetype provides a JEE Sample Application)
+285: remote -> jboss-javaee6-webapp (An archetype that generates a starter Java EE 6 webapp project)
+286: remote -> weld-jsf-jee (Weld archetype for creating a Java EE 6 application using JSF 2.0, CDI 1.0, EJB 3.1 and JPA 2.0 (persistence unit included))
+287: remote -> weld-jsf-jee-minimal (Weld archetype for creating a minimal Java EE 6 application using JSF 2.0, CDI 1.0 and EJB 3.1 (persistence unit not included))
+288: remote -> weld-jsf-servlet-minimal (Weld archetype for creating an application using JSF 2.0 and CDI 1.0 for Servlet Containers (Tomcat 6 / Jetty 6))
+289: remote -> jbundle-util-webapp-cgi-archetype (-)
+290: remote -> jbundle-util-webapp-files-archetype (-)
+291: remote -> jbundle-util-webapp-proxy-archetype (-)
+292: remote -> jbundle-util-webapp-redirect-archetype (-)
+293: remote -> jbundle-util-webapp-upload-archetype (-)
+294: remote -> jbundle-util-webapp-webdav-archetype (-)
+295: remote -> jbundle-util-webapp-website-archetype (-)
+296: remote -> jbundle-util-webapp-webstart-archetype (-)
+297: remote -> jclouds-compute-service-archetype (Maven archetype for a provider of a Compute service)
+298: remote -> jclouds-rest-client-archetype (Maven archetype for a provider of a rest-speaking service)
+299: remote -> jibx-ota-osgi-archetype (-)
+300: remote -> jini-service-archetype (Archetype for Jini service project creation)
+301: remote -> maven-hpi-plugin (Maven2 plugin for developing Hudson plugins)
+302: remote -> makumba-archetype (Archetype for a makumba web-application)
+303: remote -> ibean-archetype (An archetype for creating an empty ibean maven project)
+304: remote -> ibean-archetype (Creates a new iBean project that talks to an external service i.e. Twitter, Amazon S3, Flickr). The project will define the dependencies and documented sample
+        code for the ibean itself and a a working testcase.)
+305: remote -> mule-catalog-archetype (-)
+306: remote -> mule-example-archetype (An archetype for creating a Mule example application.)
+307: remote -> mule-module-archetype (An architype for creating a Mule Module. It provides options for adding certain mule features and configuring the
+    module for Muleforge.)
+308: remote -> mule-project-archetype (An architype for creating Mule applications.)
+309: remote -> mule-transport-archetype (Archetype for Mule 2.0 and above transport projects.)
+310: remote -> multiverse-project-archetype (Skeleton for a project using Multiverse)
+311: remote -> application-archetype (-)
+312: remote -> remoting-support (-)
+313: remote -> application (-)
+314: remote -> hibernate-support (-)
+315: remote -> html-war (-)
+316: remote -> htmlviewer-war (-)
+317: remote -> application (-)
+318: remote -> icons (-)
+319: remote -> maven-archetype-cecilia-app (This archetype is useful to quick start Cecilia applications,
+		having a source tree template already filled.)
+320: remote -> maven-archetype-cecilia-application (This archetype is useful to quick start Cecilia applications, having a
+		source tree template already filled.)
+321: remote -> maven-archetype-cecilia-library (This archetype is useful to quick start Cecilia components library
+		projects, having a source tree template already filled.)
+322: remote -> maven-archetype-petals-jbi-binding-component (>This project is Maven 2 archetype associated to a JBI binding component project.)
+323: remote -> maven-archetype-petals-jbi-service-assembly (This project is Maven 2 archetype associated to a JBI service assembly project.)
+324: remote -> maven-archetype-petals-jbi-service-engine (This project is Maven 2 archetype associated to a JBI service engine project.)
+325: remote -> maven-archetype-petals-jbi-service-unit (This project is Maven 2 archetype associated to a JBI service unit project.)
+326: remote -> openengsb-tooling-archetypes-connector (Archetype to produce new Connector project)
+327: remote -> openengsb-tooling-archetypes-domain (Archetype to produce new Domain project)
+328: remote -> openl-simple-project (-)
+329: remote -> maven-archetype-osgi-bundle (-)
+330: remote -> maven-archetype-osgi-project (-)
+331: remote -> maven-archetype-osgi-service (-)
+332: remote -> maven-archetype-osgi-wrapper (-)
+333: remote -> maven-archetype-spring-bean (-)
+334: remote -> maven-archetype-paxexam-junit ()
+335: remote -> kerneos-module-archetype (-)
+336: remote -> kerneos-war-archetype (-)
+337: remote -> camel-archetype-simple-route (-)
+338: remote -> maven-archetype-petals-jbi-binding-component (This project is Maven 2 archetype associated to a JBI binding component project.)
+339: remote -> maven-archetype-petals-jbi-service-assembly (This project is Maven 2 archetype associated to a JBI service assembly project.)
+340: remote -> maven-archetype-petals-jbi-service-engine (This project is Maven 2 archetype associated to a JBI service engine project.)
+341: remote -> maven-archetype-petals-jbi-service-unit (This project is Maven 2 archetype associated to a JBI service unit project.)
+342: remote -> maven-archetype-petals-jbi-shared-library (This project is Maven 2 archetype associated to a JBI Shared Library project.)
+343: remote -> parallelj-archetype (ParallelJ is a Java framework for parallel computing. It provides flow modeling and execution.)
+344: remote -> parancoe-pluginarchetype (-)
+345: remote -> parancoe-webarchetype (-)
+346: remote -> liftweb-archetype-blank (Archetype - blank project for liwftweb)
+347: remote -> liftweb-archetype-hellolift (Archetype - hellolift sample liwftweb application)
+348: remote -> scala-archetype-simple (The maven-scala-plugin is used for compiling/testing/running/documenting scala code in maven.)
+349: remote -> slf4j-archetype (The slf4j Archetype)
+350: remote -> flexmojos-archetypes-application (-)
+351: remote -> flexmojos-archetypes-library (-)
+352: remote -> flexmojos-archetypes-modular-webapp (-)
+353: remote -> nexus-plugin-archetype (-)
+354: remote -> spring-osgi-bundle-archetype (Spring OSGi Maven2 Archetype)
+355: remote -> spring-ws-archetype (Spring Web Services Maven2 Archetype.)
+356: remote -> trails-archetype (-)
+357: remote -> trails-secure-archetype (-)
+358: remote -> tynamo-archetype (-)
+359: remote -> wicket-scala-archetype (Basic setup for a project that combines Scala and Wicket, 
+		depending on the Wicket-Scala project. Includes an example Specs 
+		test.)
+360: remote -> wikbook.archetype (-)
+361: remote -> circumflex-archetype (-)
+362: remote -> javg-minimal-archetype (-)
+Choose a number: 98: 
+Choose version: 
+1: 1.0-alpha-1
+2: 1.0-alpha-2
+3: 1.0-alpha-3
+4: 1.0-alpha-4
+5: 1.0
+6: 1.1
+Choose a number: 6: 
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+Define value for property 'groupId': : barreverte
+Define value for property 'artifactId': : projetMavenTemoin 
+Define value for property 'version': 1.0-SNAPSHOT: 
+Define value for property 'package': barreverte: fr.barreverte
+Confirm properties configuration:
+groupId: barreverte
+artifactId: projetMavenTemoin
+version: 1.0-SNAPSHOT
+package: fr.barreverte
+Y: 
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.1
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: barreverte
+[INFO] Parameter: packageName, Value: fr.barreverte
+[INFO] Parameter: basedir, Value: /home/jpcaruana/projets/buildr-sonar
+[INFO] Parameter: package, Value: fr.barreverte
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Parameter: artifactId, Value: projetMavenTemoin
+[INFO] ********************* End of debug info from resources from generated POM ***********************
+[INFO] project created from Old (1.x) Archetype in dir: /home/jpcaruana/projets/buildr-sonar/projetMavenTemoin
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2 minutes 57 seconds
+[INFO] Finished at: Wed Jan 12 12:27:17 CET 2011
+[INFO] Final Memory: 11M/79M
+[INFO] ------------------------------------------------------------------------
